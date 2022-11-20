@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: auto;
+    height: max-content;
+    min-height: 100vh;
+    background-color: #44539d;
+}
+.navbar-brand img {
+    max-height: 30%;
+    max-width: 30%;
+}
+.Corp{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: aliceblue;
+    padding: 60px;
+    margin: 70px;
+    margin-left: 1em;
+}
+
+.Inscription a{
+    text-decoration: none;
+    color: aliceblue;
+    border: 10px solid red;
+    background-color: red;
+    border-radius: 30px;
+    align-items: center;
+    margin: 35%;
+}
+
+.Inscription a:hover {
+    background-color: goldenrod;
+}
+
+nav{
+box-shadow: 10px 5px 5px black;
+}
+
+.Photo img{
+    width: 100%;
+    display: block;
+}
+
+.Magazine{
+    background-color: whitesmoke;
+    padding: 0;
+    margin: auto;
+    height: max-content;
+    display: flex;
+    padding: 30px 10px 10px;
+    flex-direction: column;
+}
+
+article{
+    border: 30px solid transparent;
+    justify-content:flex-start;
+    background-color: whitesmoke;
+    margin: 30px;
+    font-size: smaller;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.Note{
+    display: inline-block;
+    justify-content: center;
+    font-size: larger;
+    padding: 0px 0px 10px;
+    margin: 1em;
+    color:#336699;
+}
+
+.Photo{
+   display: block;
+   margin: auto;
+   padding-bottom: 5%;
+}
+
+.Photo2{
+   display: block;
+   margin: auto;
+   padding-bottom: 5%;
+}
+
+.Photo3{
+   display: block;
+   margin: auto;
+   padding-bottom: 5%;
+}
+
+.Mag{
+    display: flex;
+}
+
+.Entête{
+    text-align: center;
+}
+
+.Découverte1{
+    border: 30px solid yellowgreen;
+    border-width: 20px;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.Découverte1 a:{
+ color: red;
+ transition: 0.5s;
+ opacity: 0.6;
+}
+
+a{
+text-decoration: none;
+}
+
+.Découverte1 a:hover{
+ opacity: 1;
+}
+
+.Découverte2{
+ border: 30px solid yellowgreen;
+ border-width: 20px;
+ border-radius: 20px;
+ background-color: yellowgreen;
+ box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.Découverte3{
+ border: 30px solid yellowgreen;
+ border-width: 20px;
+ border-radius: 20px;
+ background-color: yellowgreen;
+ box-shadow:  10px black
+}
